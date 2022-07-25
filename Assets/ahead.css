@@ -1,0 +1,144 @@
+* {
+    margin:0px;
+}
+.nav {
+    background-color: bisque;
+    justify-content: space-between;
+    position: static;
+    height: 60px;
+    background-attachment: scroll;
+    display: block;
+    width: auto;
+    top:-175px;
+    
+    
+}
+
+header {
+    color: wheat;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bolder;
+    position:relative;
+    
+    
+    
+}
+section{
+    margin:100px 0px 100px 0px;
+}
+
+.content {
+    text-align: center;
+}
+
+.wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.wrap img+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ul {
+    text-align: center;
+    position: static;
+    background-color: bisque;
+    margin: -50px;
+    
+}
+
+.ul li {
+    color: wheat;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+
+    margin: auto;
+
+}
+
+.who {
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 50px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(86, 46%, 70%);
+    color: #ffffff;
+    background-image: url('./images/suhka.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 50px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(203, 60%, 54%)
+;    color: #ffffff;
+    background-image: url('./images/2022-07-25.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box2 {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 50px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('./images/2022-07-25.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.aside {
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 50px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(86, 46%, 70%);
+    color: #ffffff;
+    background-image: url('./images/suhka.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+.services {
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 50px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(86, 46%, 70%);
+    color: #ffffff;
+    background-image: url('./images/suhka.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.images {
+    height: 10px;
+    width: 10px;
+}
+
+
+container {
+    background-color: rgb(97, 13, 13);
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+body {
+    margin-top: 50px;
+
+}
