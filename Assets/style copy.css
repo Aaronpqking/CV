@@ -1,0 +1,13 @@
+#navbar{
+    justify-items: stretch;
+    justify-content: space-around;
+}
+body {
+    background-color: black;
+}
+.biotext {
+    color: white;
+}
+#portfolio-container {
+    background-color: white;
+}
