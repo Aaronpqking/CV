@@ -5,89 +5,256 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./Assets/style.css" />
+    <link rel="stylesheet" href="./Assets/style copy.css" />
     <title>CV</title>
 </head>
 
-<body class="bg-black">
-    <nav class="navbar navbar-expand-lg bg-black">
+<nav class="navbar navbar-expand-lg bg-warning">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="#navbar-brand">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Software Development
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://github.com/aKingsView?tab=repositories">MY REPOSITORY</a></li>
+            <!-- <li><a class="dropdown-item" href="./Assets/Ahead.html">MY PORTFOLIO</a></li> -->
+            <li><hr class="dropdown-divider"></li>
+            <!-- <li><a class="dropdown-item" href="#">MY AVAILABILITY</a></li> -->
+          </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Yoga & Meditation
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="https://clients.mindbodyonline.com/classic/ws?studioid=160485&stype=-7&sView=week&sLoc=0&sTrn=4" target="_blank">Group Classes</a></li>
+            <li><a class="dropdown-item" href="https://clients.mindbodyonline.com/classic/ws?studioid=160485&stype=-103&sView=week&sLoc=0&sTrn=4" target="blank">One-on One sessions</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <!-- consider adding the following: -->
+            <!-- <li><a class="dropdown-item" href="#">Organizational Development</a></li> -->
+            <!-- <li><a class="dropdown-item" href="#">Strength Training</a></li> -->
+
           </ul>
         </li>
-      </ul>
+        <a class="navbar" href="www.dharmahousecolumbus.com">The Dharma House</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      
     </div>
   </div>
 </nav>
-    <header class="jumbotron bg-warning">
-        <div class="position-relative"></div>
-        <h1 class="display-3 center">AARON KING</h1>
-        <p class="lead center">A look into my work as an apsiring developer</p>
-        <p id="date" class="lead date"></p>
-    </header>
-
-    <div class="container">
+<!-- add QR code for link to socials to right side jumbotron -->
+<body>
+  <section class="jumbotron bg-primary">
+    <div class="position-relative"></div>
+    <h1 class="display-3 me-3">AARON KING</h1>
+    <p class="lead center margin-right">A look into my work as an apsiring human</p>
+    <p id="date" class="lead date"></p>
+  </section>
+<br>
+<br>
+  <div class="container">
       <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
-        <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+          <div class="col-4">
+            <div class="card-body bg-light">
+              <img src="./Assets/sixword.png" class="card-img-top" alt="...">
+                    <h5 class="card-title">Six in the city</h5>
+                    <p class="card-text">A short (bio) talk I did in collaboration with Larry Smith and the team at 6 word memiors.</p>
+                    <a href="https://vimeo.com/181224582" class="btn btn-primary">Watch</a>
+            </div>           
+          </div>
+      <div class="col">
+        <br>
+        <br>
+        <br>
+        <p class="biotext">
+Like meditation, yoga found me at a time when I needed it most. I thought that I could find happiness  through my career, but it wasn't enough. My training  taught me to honor my inner voice. I teach all 8 limbs of yoga with a strong  focus on awareness and breath-work. Through intelligent  sequencing, I guide a practice that allows you to truly connect with and  strengthen your mind and body. In 2015, I founded the Dharma House. I enjoy using a fluid  combination of modalities. My passions include spirituality, emotional  intelligence, health and wellness, philosophy, and nutrition. My  mission is to master the power of the mind and body, and teach others to  do the same. Here I believe we find not only power, but joy.
+        </p>
       </div>
     </div>
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <img src="..." class="rounded mr-2" alt="...">
-        <strong class="mr-auto">Bootstrap</strong>
-        <small>11 mins ago</small>
-        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  </div>
+<br>
+<br>
+<br>
+
+          <section>
+          <header class="jumbotron bg-warning">
+            <div class="position-relative"></div>
+            <h1 class="display-3 m-center">CODING</h1>
+            <p class="lead m-center">Here's a sample my work as an apsiring developer</p>
+            <p id="date" class="lead date"></p>
+        </header>
+          </section>
+
+
+          <br>
+          <br> 
+          <br>
+
+
+  <container class="portfolio-container>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                <div class="card mb-3">
+                  <a href="https://akingsview.github.io/workday-calendar/" target="_blank">
+                  <img src="./Assets/2022-09-08 (2).png"  class="card-img-top" alt="a link to Aaron's real time scheduler app"></a>
+                  <div class="card-body">
+                    <p class="card-text"><small class="text-muted">REAL TIME SCHEDULER USING HTML/CSS/JAVASCRIPT/MOMENT</small></p>
+                  </div>
+                </div>
+                <div class="col-sm-2"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <br>
+          <br>
+
+
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card H-50">
+                <a href="https://aaronpqking.github.io/Weatherdashboard/" target="blank">
+                <img src="./Assets/2022-09-07 (3).png" class="card-img-top"  alt="a clickable link to Aaron's weather Dashboard"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Weather Dashboard</h5>
+                  <p class="card-text">A dynamically updated weather reporting site using 3rd party APIs</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a href="https://aaronpqking.github.io/Javascript-Quiz-Game" target="blank">
+                <img src="./Assets/2022-09-09 (1).png"  class="card-img-top" alt="A link to Aaron's Javascript Quiz"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Javascript Quiz</h5>
+                  <p class="card-text">A timed coding quiz with multiple-choice questions that features dynamically updated HTML and CSS powered by JavaScript</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a href="https://aaronpqking.github.io/data-day/" target="blank">
+                <img src="./Assets/Screen Shot 2022-09-01 at 8.56.52 PM.png" class="card-img-top" alt=" "></a>
+                <div class="card-body">
+                  <h5 class="card-title">Eventfully Now aka "The pregame App"</h5>
+                  <p class="card-text">My first group project designed to query local music events and local breweries to visit before your show</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <br>
+          <br>
+
+
+          <!-- <div class="card-group">
+            <div class="card">
+              <img src="./Assets/Boo.png" class="card-img-top" alt="...">
+              
+              
+            </div>
+            <div class="card">
+              <img src="./Assets/2022-07-25.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Assets/PG.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+            </div>
+          </div> -->
+<br>
+<br>
+          </container>
+      
+  
+  
+  
+
+
+
+<!-- <container>
+
+  <div class="card-group">
+    <div class="card">
+      <img src="./Assets/sixword.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Six in the city</h5>
+        <p class="card-text">A short (bio) talk I did in collaboration with Larry Smith and the team at 6 word memiors.</p>
+                    <a href="https://vimeo.com/181224582" class="btn btn-primary">Watch</a>
+
       </div>
-      <div class="toast-body">
-        Hello, world! This is a toast message.
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
       </div>
     </div>
+    <div class="card">
+      <div class="card-body">
+          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="aaronpqking" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/aaronpqking?trk=profile-badge"></a>
+          </div>
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+              <img src="./Assets/sixword.png" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                    <h5 class="card-title">Six in the city</h5>
+                    <p class="card-text">A short (bio) talk I did in collaboration with Larry Smith and the team at 6 word memiors.</p>
+                    <a href="https://vimeo.com/181224582" class="btn btn-primary">Watch</a>
+              </div>
+<br>
+          <div class="w-80">   
+              <img src="./Assets/Aaron workshop" class="card-img-top" alt="A picture of Aaron King in Trikonasana, a yoga pose. It links to a page with reviews">
+              <div class="card-body bg-light">
+                <h5 class="card-title">What my community says about me </h5>
+                <p class="card-text">Here are some reviews of my service.</p>
+                <a href="https://classpass.com/studios/the-dharma-house-worthington" class="btn btn-primary">Read</a>
+              </div> 
 
 
-
-
-
-
-
-
-
-
-
+</container> -->
 </body>
+
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
