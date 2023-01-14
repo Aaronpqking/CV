@@ -1,13 +1,9 @@
 .jumbotron {
-	background-color: #428bca
+	background-color: #428bca;
 }
 
 .jumbotron h1 {
 	color:white;
-}
-
-p, h1, h4 {
-	font-family: 'Roboto Slab', serif;
 }
 
 #funText {
@@ -15,9 +11,167 @@ p, h1, h4 {
 	font-size: 24px;
 	font-family: 'Roboto Slab', serif;
 }
+.date {
+    text-align: right;
+    color:white;
+}
+.center {
+    text-align:center;
+
+}
 
 #box {
 	height: 100px;
 	width: 100px;
 	margin:auto;
+}
+.content {
+    text-align: right;
+    margin: auto;
+    background-color: black;
+}
+
+.wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.wrap img+.content {
+    top: 0;
+    left: 0;
+
+}
+
+.ul {
+    color:white;
+    text-align: right;
+    position: relative;
+    background-color: black;
+    margin: -50px;
+    margin-left: 400px;
+    overflow: hidden;
+
+}
+
+.ul li {
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 10px;
+    list-style-type:none;
+    position: relative;
+    text-align: right;
+    display: inline-block;
+
+
+}
+section{
+    margin-top: 100px;
+    margin: 100px 0px 100px 0px;
+}
+.who {
+    margin-top: 300px;
+    margin-bottom: 150px;
+    font-size: 25px;
+    text-align: right;
+    padding: 50px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(86, 46%, 70%);
+    color: #ffffff;
+    background-image: url(./Aaron\ workshop);
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.what {background-color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+    font-size: 25px;
+    text-align: left;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(203, 60%, 54%);    color: #ffffff;
+    background-image: url('./2022-07-25.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.who2 {
+    /* flex-direction: row;
+    margin-bottom: 150px;
+    font-size: 25px;
+    text-align: right;
+    padding: 0px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.who3 {
+    background-color: white;
+    flex-direction: row;
+    margin-bottom: 150px;
+    text-align: right;
+    padding: 0px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box3 {
+    display: none;
+    flex-direction: column;
+    margin-bottom: 150px;
+    font-size: 25px;
+    text-align: left;
+    padding: 0px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('./Boo.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.services {
+    display: none;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 50px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(86, 46%, 70%);
+    color: #ffffff;
+    background-image: url('./images/suhka.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.images {
+    float:left;
+    height: 350px;
+    width: 400px;
+}
+
+
+container {
+    /* color: white;
+    font-size: xx-large;
+    background-color: rgb(48, 47, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    margin-bottom: -150px; */
+overflow: hidden;
+}
+
+body {
+    background-color: black;
 }
